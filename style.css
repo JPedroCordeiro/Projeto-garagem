@@ -1,0 +1,176 @@
+/****************** FORMATAÇÕES GERAIS ******************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background: #e6e6e6;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-top: 10px;
+}
+
+h2 {
+ color: #585858;
+}
+
+h3 {
+    background: #e6e6e6;
+    padding: 5px;
+    color: #585858;
+}
+
+/****************** CABEÇALHO ******************/
+
+#cabecalho {
+    background: #a7a5a5;
+    text-align: center;
+}
+
+#logo-marca {
+    margin: 0px auto;
+}
+
+#img-logo {
+    width: 300px;
+    margin-top: 25px;
+}
+
+/****************** MENU ******************/
+
+#menu {
+    padding: 20px;
+}
+
+#menu a:link, #menu a:visited {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+#menu a:hover {
+    color: red;
+    background: white;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: red;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/****************** HOME ******************/
+
+#principal-home {
+    width: 1250px;
+    margin: 10px auto;
+}
+
+.area-conteudo {
+    border-bottom: 1px solid #CCC;
+    margin: 10px 0px;
+}
+
+.h1-home {
+    margin-top: 25px;
+    color: #585858;
+}
+
+.conteudo-home {
+    width: 700px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.area-img {
+    width: 500px;
+    float: right;
+    text-align: center;
+}
+
+.img-conteudo {
+    width: 400px;
+    margin: 60px 0px;
+}
+
+#img-parceiro {
+    width: 300px;
+    height: 200px;
+}
+
+/****************** LAYOUT ******************/
+
+.principal {
+    width: 920px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.area-postagens {
+    width: 660px;
+    float: left;
+}
+
+.postagens {
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.img-postagens {
+    width: 620px;
+}
+
+.area-destaques {
+    width: 240px;
+    float: right;
+}
+
+.conteudo-destaques {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.texto-destaques {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.p-contato {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/****************** RODAPE ******************/
+
+.rodape {
+    clear: both;
+    background: #a7a5a5;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
